@@ -2,10 +2,17 @@
 //
 
 #include "stdafx.h"
+#include "Logger.h"
 
 
 int main()
 {
-    return 0;
+	for( int i = 0; i < 100; i++ )
+	{
+		TestPrintLog();
+	}
+
+	return 0;
 }
+
 
